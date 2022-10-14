@@ -1,0 +1,8 @@
+version: '3.8'
+name: min-coola-composer
+services:
+  web:
+    container_name: webengine
+    image: nginx
+    ports:
+    - "1337:80"

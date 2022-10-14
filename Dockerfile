@@ -1,9 +1,11 @@
+# Default os is debian
+
+# PHP
 FROM php:8.1
+## MYSQL
 FROM mysql:8
-FROM nginx
-
-
+## Ports in linux
 EXPOSE 80
-
+# Default path in linux
 WORKDIR /app
-# PHP with cmd wont work if i dont use cli
+
